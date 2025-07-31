@@ -11,7 +11,7 @@ SELECT
     job_location,
     job_schedule_type,
     job_posted_date,
-    salary_year_avg
+    ROUND(salary_year_avg,0) AS salary_year_avg
 FROM job_postings_fact AS job_posting
 LEFT JOIN 
     company_dim ON job_posting.company_id = company_dim.company_id
