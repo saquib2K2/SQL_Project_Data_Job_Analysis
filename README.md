@@ -65,7 +65,8 @@ Here’s the breakdown of the top paying jobs in 2023:
 
 * **Consistent Hiring Throughout the Year:** Job postings are spread from January to December 2023, suggesting steady demand for data professionals without seasonal drops.
 
-Add chart
+![top_paying_jobs](./prject_sql/img/image.png)
+
 
 Bar graph visualizing the salary for the top 10 salaries for data analysts; ChatGPT generated this graph from my SQL query results
 
@@ -101,6 +102,7 @@ INNER JOIN
 ORDER BY
     salary_year_avg DESC 
 ```
+![top_paying_jobs](./prject_sql/img/img2.png)
 Here's the breakdown of the most demanded skills for the top 10 highest paying data analyst jobs in 2023:
 
 * SQL is leading with a bold count of 8.
